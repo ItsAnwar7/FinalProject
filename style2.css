@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Tajawal:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+  
+}
+ 
+ a, button{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #EAE2B7;
+    text-decoration: none;
+
+}
+button:hover{
+    background-color:  #EAE2B7;
+    color: #0230478c;
+}
+button{
+    padding: 9px 25px;
+    background-color: #e6af41;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  
+}
+.logo{
+    cursor: pointer;
+}
+.cta{
+    background-color: #023047;
+    display: flex;
+    justify-content: right;
+   align-items: center;
+   justify-content: space-around;
+   height: 80px;
+   
+}
+body{
+   background-image: url(./assets/images/2bg.jpg);
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+  
+}
+.container{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cat-container{
+    padding: 10px;
+   
+   
+  flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+  justify-content: space-between;
+}
+.typeCategory{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+
+}
+
+.font{
+     color: #003049;
+     display: flex;
+      justify-content: center;
+      font-family: 'Almarai', sans-serif;
+       font-family: 'Tajawal', sans-serif;
+        font-size: 80px;
+        
+ }
+ 
+
+ .cat-container button{
+     box-shadow:  rgba(0, 0, 0, 0.199) 0px 5px 15px;
+     display: flex;
+     align-items: center;
+justify-content: center;
+ }
+ .cat-container h1{
+    box-shadow:  rgba(0, 0, 0, 0.199) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+ }
+ body{
+    direction: rtl;
+}

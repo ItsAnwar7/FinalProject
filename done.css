@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Tajawal:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+  
+}
+ 
+ a, button{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #EAE2B7;
+    text-decoration: none;
+
+}
+
+.cta{
+    background-color: #023047;
+    display: flex;
+    justify-content: right;
+   align-items: center;
+   justify-content: space-around;
+   height: 80px;
+   
+}
+#section-a{
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+   color: #edf0f1;
+   background-color: #023047;
+}
+.font{
+    color: #023047;
+    display:block;
+    justify-content: center;
+    font-family: 'Almarai', sans-serif;
+   font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 44px;
+    font-size: x-large;
+}
+
+
+body{
+    margin: 0;
+  
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #023047;
+}
+button{
+    padding: 9px 25px;
+    background-color: #e6af41;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: left;
+}
+
+button:hover{
+    background-color:  #EAE2B7;
+    color: #0230478c;
+}
+
+.logo{
+    cursor: pointer;
+}
+.img{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 560px;
+    display: block;
+}

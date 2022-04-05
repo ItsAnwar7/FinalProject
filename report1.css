@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Tajawal:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+  
+}
+body{
+    direction: rtl;
+}
+ 
+ a, button{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #EAE2B7;
+    text-decoration: none;
+
+}
+.cta{
+    background-color: #023047;
+    display: flex;
+    justify-content: right;
+   align-items: center;
+   justify-content: space-around;
+   height: 80px;
+   
+}
+button{
+    padding: 9px 25px;
+    background-color: #e6af41;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: left;
+}
+button:hover{
+    background-color:  #EAE2B7;
+    color: #0230478c;
+}
+.logo{
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.location{
+    
+    padding: 18px 50px;
+    margin-top: 10px;
+    
+    
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+  }
+  
+  
+ 
+  input[type=submit] {
+    background-color: #e9e6d7;
+    color: #003049;
+    padding: 12px 20px;
+   border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Almarai', sans-serif;
+       font-family: 'Tajawal', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #EAE2B7;
+    color: #F77F00;
+  }
+  
+ 
+  .container {
+    border-radius: 20px;
+    background-color: #003049;
+    padding: 50px;
+    height: 500px;
+    margin: 50px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    color: #e9e6d7;
+  }
+#country {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+        font-weight: 600;
+}
+
+.MyButton{
+   
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.MyButton{
+    margin-top: 60px;
+}
+
+
+

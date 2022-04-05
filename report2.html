@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بلاغ: مشاجرة</title>
+    <link rel="stylesheet" href="report2.css">
+</head>
+<body>
+    <div class="cta">
+        <img class="logo" src="./assets/images/logo.png" alt="logo" width="200px">
+    <a  href="./index.html"><button>الصفحة الرئيسة</button></a>
+    <a  href="./page2.html"><button>أنواع البلاغات</button></a>
+    </div>
+
+    <div id="main" class="container">
+      <form id="report" >
+          <div class="input-group error">
+             <h1>البلاغ: مشاجرة</h1>
+              <label for="fname"> أسم المُبلغ</label>
+            <input type="text" id="fname" name="firstname" placeholder=" أسمك الثلاثي">
+           
+            </div>
+  
+  
+            <div class="input-group">
+            <label for="fname"> رقم الهاتف </label>
+            <input type="text" id="lname" name="idNumber" placeholder="  رقمك" pattern="[0-9]{8}" onkeypress="return restricAlphabets(event)"><br/>
+           
+          </div>
+  
+  
+            <h2 >معلومات عن مكان البلاغ</h2>
+            <div class="input-group">
+            <label for="fname">   الضرر  الذي اصابك بسبب هذه المشكلة</label>
+            <input type="text" id="effects" name="idEffects" placeholder=" الاضرار ">
+            
+            </div>
+        
+          </form>
+          <div class="loc"></div>
+             <h3 class="status"></h3>
+             <button class="location">موقع البلاغ</button>
+             <button type="submit" id="MyButton" class="MyButton"><a href="./done.html">ارسال</a></button>
+          </div>
+       
+        </div>
+        <script src="./report2.js"></script>
+</body>
+</html>

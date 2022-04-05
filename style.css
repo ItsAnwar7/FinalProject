@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Tajawal:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+  
+}
+ 
+ a, button{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #EAE2B7;
+    text-decoration: none;
+
+}
+#showcase{
+    background-image: url(./assets/images/2bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#shoecase {
+    font-size: 80px;
+    font-family: 'Almarai', sans-serif;
+   font-family: 'Tajawal', sans-serif;
+}
+.cta{
+    background-color: #023047;
+    display: flex;
+    justify-content: right;
+   align-items: center;
+   justify-content: space-around;
+   height: 80px;
+   
+}
+#section-a{
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+   color: #edf0f1;
+   background-color: #023047;
+}
+body{
+    direction: rtl;
+}
+.font{
+    color: #edf0f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Almarai', sans-serif;
+   font-family: 'Tajawal', sans-serif;
+    font-size: 80px;
+    text-shadow: 2px 2px black;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+body{
+    margin: 0;
+  
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #023047;
+}
+button{
+    padding: 9px 25px;
+    background-color: #e6af41;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: left;
+}
+
+button:hover{
+    background-color:  #EAE2B7;
+    color: #0230478c;
+}
+
+.logo{
+    cursor: pointer;
+}
+#showcase  .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #023047;
+    border: #023047 1px solid;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #edf0f1c9;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+}
+
+#showcase  .button:hover{
+    background: #e6af41;
+    color: #edf0f1;
+    border: #e6af41;
+}
+
