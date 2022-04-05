@@ -100,3 +100,6 @@ justify-content: center;
  body{
     direction: rtl;
 }
+.cat-container button:hover{
+    color: #e6af41;
+}
