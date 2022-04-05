@@ -85,7 +85,11 @@ body{
      box-shadow:  rgba(0, 0, 0, 0.199) 0px 5px 15px;
      display: flex;
      align-items: center;
-justify-content: center;
+     justify-content: center;
+     padding:  100px 50px;
+     border-radius: 200px;
+     background-color: #003049;
+
  }
  .cat-container h1{
     box-shadow:  rgba(0, 0, 0, 0.199) 0px 5px 15px;
