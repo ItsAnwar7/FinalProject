@@ -82,7 +82,7 @@ body{
  
 
  .cat-container button{
-     box-shadow:  rgba(0, 0, 0, 0.199) 0px 5px 15px;
+    
      display: flex;
      align-items: center;
      justify-content: center;
@@ -102,4 +102,6 @@ justify-content: center;
 }
 .cat-container button:hover{
     color: #e6af41;
+     box-shadow:  rgba(0, 0, 0, 0.322) 0px 5px 15px;
+     
 }

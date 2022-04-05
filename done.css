@@ -44,7 +44,7 @@
 
 body{
     margin: 0;
-  
+    direction: rtl;
     }
 header{
     display: flex;
