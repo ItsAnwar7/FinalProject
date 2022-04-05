@@ -40,8 +40,10 @@
 #section-a{
     font-family: 'Almarai', sans-serif;
     font-family: 'Tajawal', sans-serif;
-   color: #edf0f1;
-   background-color: #023047;
+   color: #023047;
+   font-size: larger;
+   font-weight: bold;
+  margin-top: 30px;
 }
 body{
     direction: rtl;
